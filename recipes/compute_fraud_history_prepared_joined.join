@@ -12,11 +12,11 @@
       "on": [
         {
           "column1": {
-            "name": "card_mask",
+            "name": "date",
             "table": 0
           },
           "column2": {
-            "name": "card_mask",
+            "name": "date",
             "table": 1
           },
           "maxDistance": 1,
