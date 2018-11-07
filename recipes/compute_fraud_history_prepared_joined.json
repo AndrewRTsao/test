@@ -25,18 +25,18 @@
     "main": {
       "items": [
         {
-          "ref": "fraud_history_prepared_joined",
+          "ref": "fraud_history_joined",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541598911676
+    "lastModifiedOn": 1541599011612
   },
   "creationTag": {
     "versionNumber": 0,
