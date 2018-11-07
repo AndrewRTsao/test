@@ -2,7 +2,6 @@
   "columnsSelection": {
     "mode": "ALL"
   },
-  "analysisColumnData": {},
   "explorationSampling": {
     "_refreshTrigger": 2,
     "selection": {
@@ -26,15 +25,9 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "sorting": [],
+  "origin": "PREPARE_RECIPE",
   "exploreUIParams": {
     "autoRefresh": true
-  },
-  "globalSearchQuery": "",
-  "coloring": {
-    "scheme": "MEANING_AND_STATUS",
-    "individualColumns": [],
-    "valueColoringMode": "HASH"
   },
   "steps": [
     {
@@ -83,5 +76,13 @@
   "vizSampling": {
     "_refreshTrigger": 0,
     "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
   }
 }
