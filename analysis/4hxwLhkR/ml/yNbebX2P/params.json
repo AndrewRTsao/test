@@ -21,7 +21,7 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "FULL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
@@ -285,13 +285,38 @@
     },
     "feature_generation": {
       "pairwise_linear": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "polynomial_combinations": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "manual_interactions": {
-        "interactions": []
+        "interactions": [
+          {
+            "column_1": "card_used_in_same_country",
+            "column_2": "amount",
+            "max_features": 100,
+            "rescale": true
+          },
+          {
+            "column_1": "id_company",
+            "column_2": "type",
+            "max_features": 100,
+            "rescale": true
+          },
+          {
+            "column_1": "card_used_in_same_country",
+            "column_2": "type",
+            "max_features": 100,
+            "rescale": true
+          },
+          {
+            "column_1": "type",
+            "column_2": "amount",
+            "max_features": 100,
+            "rescale": true
+          }
+        ]
       },
       "numericals_clustering": {
         "k": 0,
