@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541598762246
+    "lastModifiedOn": 1541598812606
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,10 +88,6 @@
     "columns": [
       {
         "name": "fraud",
-        "type": "bigint"
-      },
-      {
-        "name": "index",
         "type": "bigint"
       },
       {
