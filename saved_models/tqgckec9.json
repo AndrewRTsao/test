@@ -2,7 +2,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Random Forest",
-  "activeVersion": "initial",
+  "activeVersion": "1541607062613",
   "conditionalOutputs": [],
   "lastExportedFrom": "A-FRAUDANALYSIS-4hxwLhkR-yNbebX2P-s2-pp1-m1",
   "metrics": {
@@ -79,7 +79,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -97,7 +96,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -115,7 +113,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -134,7 +131,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -157,7 +153,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -235,13 +230,11 @@
           5
         ],
         "distance_weighting": false,
-        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
-        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -658,11 +651,11 @@
     "predictionDisplayCharts": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541606369866
+    "lastModifiedOn": 1541607202947
   },
   "creationTag": {
     "versionNumber": 0,
