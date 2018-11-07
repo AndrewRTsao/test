@@ -23,16 +23,20 @@
         {
           "ref": "transactions_history_split",
           "appendMode": false
+        },
+        {
+          "ref": "evaluation",
+          "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541602777388
+    "lastModifiedOn": 1541603168808
   },
   "creationTag": {
     "versionNumber": 0,

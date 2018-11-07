@@ -10,7 +10,7 @@
     "distinct": false,
     "enabled": false
   },
-  "defaultOutputIndex": -1,
+  "defaultOutputIndex": 0,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
@@ -61,7 +61,7 @@
           ]
         }
       },
-      "outputIndex": 0
+      "outputIndex": 1
     }
   ],
   "engineParams": {
