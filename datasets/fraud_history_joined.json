@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541599002578
+    "lastModifiedOn": 1541599011579
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,56 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "fraud",
+        "type": "bigint"
+      },
+      {
+        "name": "index",
+        "type": "bigint"
+      },
+      {
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "name": "type",
+        "type": "bigint"
+      },
+      {
+        "name": "amount",
+        "type": "double"
+      },
+      {
+        "name": "id_company",
+        "type": "bigint"
+      },
+      {
+        "name": "remote_ip",
+        "type": "string"
+      },
+      {
+        "name": "remote_ip_country",
+        "type": "string"
+      },
+      {
+        "name": "remote_ip_tor",
+        "type": "bigint"
+      },
+      {
+        "name": "card_mask",
+        "type": "string"
+      },
+      {
+        "name": "card_country",
+        "type": "string"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
