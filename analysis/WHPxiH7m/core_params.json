@@ -29,6 +29,17 @@
         "preview": false,
         "disabled": false,
         "alwaysShowComment": false
+      },
+      {
+        "type": "CreateColumnWithGREL",
+        "params": {
+          "column": "card_used_in_same_country",
+          "expression": "if (remote_ip_country \u003d\u003d card_country, 1, 0)"
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
       }
     ],
     "maxProcessedMemTableBytes": -1,
@@ -82,7 +93,7 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541600488846
+    "lastModifiedOn": 1541600554811
   },
   "creationTag": {
     "versionNumber": 0,
