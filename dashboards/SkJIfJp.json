@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "id": "zg9VJPr",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "admin",
+  "listed": true,
+  "name": "Default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1541596877136
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1541596877136
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
