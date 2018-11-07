@@ -38,7 +38,7 @@
     },
     {
       "name": "date",
-      "type": "string",
+      "type": "date",
       "table": 1
     },
     {
@@ -148,7 +148,7 @@
           },
           {
             "name": "date",
-            "type": "string"
+            "type": "date"
           },
           {
             "name": "type",
