@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541598158267
+    "lastModifiedOn": 1541598762246
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,6 +86,14 @@
   },
   "schema": {
     "columns": [
+      {
+        "name": "fraud",
+        "type": "bigint"
+      },
+      {
+        "name": "index",
+        "type": "bigint"
+      },
       {
         "name": "date",
         "type": "string",
@@ -127,14 +135,6 @@
       {
         "name": "email",
         "type": "string"
-      },
-      {
-        "name": "fraud",
-        "type": "bigint"
-      },
-      {
-        "name": "index",
-        "type": "bigint"
       }
     ],
     "userModified": true
