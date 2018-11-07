@@ -32,11 +32,6 @@
       "table": 0
     },
     {
-      "name": "index",
-      "type": "bigint",
-      "table": 1
-    },
-    {
       "name": "date",
       "type": "string",
       "table": 1
@@ -140,10 +135,6 @@
         "columns": [
           {
             "name": "fraud",
-            "type": "bigint"
-          },
-          {
-            "name": "index",
             "type": "bigint"
           },
           {
