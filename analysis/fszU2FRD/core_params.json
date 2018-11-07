@@ -1,7 +1,22 @@
 {
   "inputDatasetSmartName": "fraud_history_joined",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "ColumnsSelector",
+        "params": {
+          "keep": false,
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "fraud"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -53,7 +68,7 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541599120369
+    "lastModifiedOn": 1541599223783
   },
   "creationTag": {
     "versionNumber": 0,
