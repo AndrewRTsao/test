@@ -4,58 +4,86 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "LEFT",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "RIGHT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "card_mask",
+            "table": 0
+          },
+          "column2": {
+            "name": "card_mask",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
-      "name": "date",
-      "table": 0
-    },
-    {
-      "name": "type",
-      "table": 0
-    },
-    {
-      "name": "amount",
-      "table": 0
-    },
-    {
-      "name": "id_company",
-      "table": 0
-    },
-    {
-      "name": "remote_ip",
-      "table": 0
-    },
-    {
-      "name": "remote_ip_country",
-      "table": 0
-    },
-    {
-      "name": "remote_ip_tor",
-      "table": 0
-    },
-    {
-      "name": "card_mask",
-      "table": 0
-    },
-    {
-      "name": "card_country",
-      "table": 0
-    },
-    {
-      "name": "email",
-      "table": 0
-    },
-    {
       "name": "fraud",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "index",
+      "type": "bigint",
+      "table": 1
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "type",
+      "type": "bigint",
+      "table": 1
+    },
+    {
+      "name": "amount",
+      "type": "double",
+      "table": 1
+    },
+    {
+      "name": "id_company",
+      "type": "bigint",
+      "table": 1
+    },
+    {
+      "name": "remote_ip",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "remote_ip_country",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "remote_ip_tor",
+      "type": "bigint",
+      "table": 1
+    },
+    {
+      "name": "card_mask",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "card_country",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "email",
+      "type": "string",
       "table": 1
     }
   ],
@@ -105,5 +133,63 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "fraud",
+            "type": "bigint"
+          },
+          {
+            "name": "index",
+            "type": "bigint"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "bigint"
+          },
+          {
+            "name": "amount",
+            "type": "double"
+          },
+          {
+            "name": "id_company",
+            "type": "bigint"
+          },
+          {
+            "name": "remote_ip",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_country",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_tor",
+            "type": "bigint"
+          },
+          {
+            "name": "card_mask",
+            "type": "string"
+          },
+          {
+            "name": "card_country",
+            "type": "string"
+          },
+          {
+            "name": "email",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
