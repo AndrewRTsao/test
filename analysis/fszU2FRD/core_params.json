@@ -1,7 +1,22 @@
 {
   "inputDatasetSmartName": "fraud_history_joined",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "ColumnsSelector",
+        "params": {
+          "keep": false,
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "index"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -49,11 +64,11 @@
   "charts": [],
   "name": "Analyze fraud_history_joined",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541599522545
+    "lastModifiedOn": 1541599669018
   },
   "creationTag": {
     "versionNumber": 0,
