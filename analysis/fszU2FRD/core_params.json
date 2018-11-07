@@ -6,8 +6,9 @@
         "type": "ColumnsSelector",
         "params": {
           "keep": false,
-          "appliesTo": "SINGLE_COLUMN",
+          "appliesTo": "COLUMNS",
           "columns": [
+            "index",
             "fraud"
           ]
         },
@@ -68,7 +69,7 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541599223783
+    "lastModifiedOn": 1541599316372
   },
   "creationTag": {
     "versionNumber": 0,
