@@ -1,0 +1,66 @@
+{
+  "type": "shaker",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "engineParams": {
+      "spark": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true,
+        "sparkConfig": {
+          "inheritConf": "default",
+          "conf": []
+        },
+        "readParams": {
+          "map": {}
+        },
+        "useGlobalMetastore": false
+      },
+      "hadoopConfigKeys": [],
+      "maxThreads": 8
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "fraud_history",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "fraud_history_prepared",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1541597127171
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1541597127171
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
