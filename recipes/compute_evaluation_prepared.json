@@ -12,7 +12,12 @@
           "conf": []
         },
         "readParams": {
-          "map": {}
+          "map": {
+            "evaluation": {
+              "repartition": 10,
+              "cache": false
+            }
+          }
         },
         "useGlobalMetastore": false
       },
@@ -46,11 +51,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541606716261
+    "lastModifiedOn": 1541606719551
   },
   "creationTag": {
     "versionNumber": 0,
