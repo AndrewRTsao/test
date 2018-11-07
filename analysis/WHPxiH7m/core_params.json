@@ -1,7 +1,36 @@
 {
   "inputDatasetSmartName": "fraud_history_joined",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "ColumnsSelector",
+        "params": {
+          "keep": false,
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "index"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnReorder",
+        "params": {
+          "reorderAction": "AT_END",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "fraud"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -39,7 +68,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -47,11 +78,11 @@
   "charts": [],
   "name": "Analyze fraud_history_joined",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541600160779
+    "lastModifiedOn": 1541600175699
   },
   "creationTag": {
     "versionNumber": 0,
