@@ -3,32 +3,34 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": -1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
   "rangeSetTime": false,
+  "column": "date",
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "RANGE",
   "centileTDigest": false,
   "valueSplits": [
     {
@@ -41,10 +43,23 @@
       "filter": {
         "uiData": {
           "mode": "\u0026\u0026",
-          "conditions": []
-        },
-        "distinct": false,
-        "enabled": true
+          "conditions": [
+            {
+              "date": "2014-10-01",
+              "input": "date",
+              "frontDate": "2014-10-01",
+              "time": "00:00",
+              "operator": "\u003e  [date]"
+            },
+            {
+              "date": "2018-11-07",
+              "input": "date",
+              "frontDate": "2018-11-07",
+              "time": "00:00",
+              "operator": "\u003c\u003d [date]"
+            }
+          ]
+        }
       },
       "outputIndex": 0
     }
@@ -81,6 +96,56 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "index",
+                "type": "bigint"
+              },
+              {
+                "name": "date",
+                "type": "date"
+              },
+              {
+                "name": "type",
+                "type": "bigint"
+              },
+              {
+                "name": "amount",
+                "type": "double"
+              },
+              {
+                "name": "id_company",
+                "type": "bigint"
+              },
+              {
+                "name": "remote_ip",
+                "type": "string"
+              },
+              {
+                "name": "remote_ip_country",
+                "type": "string"
+              },
+              {
+                "name": "remote_ip_tor",
+                "type": "bigint"
+              },
+              {
+                "name": "card_mask",
+                "type": "string"
+              },
+              {
+                "name": "card_country",
+                "type": "string"
+              },
+              {
+                "name": "email",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
