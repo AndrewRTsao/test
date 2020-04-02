@@ -113,7 +113,7 @@
       }
     }
   },
-  "name": "Deep Learning",
+  "name": "Deep Learning (deep_learning_branch)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -169,11 +169,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585846310709
+    "lastModifiedOn": 1585846312853
   },
   "creationTag": {
     "versionNumber": 0,
@@ -182,7 +182,7 @@
     },
     "lastModifiedOn": 1576000158756
   },
-  "shortDesc": "The project *Deep Learning* was created by Administrator on Dec 10th 2019",
+  "shortDesc": "The project *Deep Learning* was created by Administrator on Dec 10th 2019\nThe project *DEEP_LEARNING_BRANCH* was copied from *DEEPLEARNING* by Administrator on Apr 02nd 2020",
   "tags": [
     "duplicated"
   ],
