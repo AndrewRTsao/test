@@ -114,7 +114,6 @@
     }
   },
   "name": "Deep Learning",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -170,11 +169,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585846245347
+    "lastModifiedOn": 1585846310709
   },
   "creationTag": {
     "versionNumber": 0,
@@ -184,7 +183,9 @@
     "lastModifiedOn": 1576000158756
   },
   "shortDesc": "The project *Deep Learning* was created by Administrator on Dec 10th 2019",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
